@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Hydraulic Split Audit"
+message: "If you use this code or derived results, please cite the associated paper and the UCI dataset."
+type: software
+authors:
+  - family-names: Yan
+    given-names: Chen-Yu
+version: 1.0.0
+date-released: 2026-10-17
+license: MIT
+repository-code: https://github.com/USERNAME/hydraulic-split-audit
+keywords:
+  - hydraulic condition monitoring
+  - split protocol
+  - reproducibility
+  - accumulator pressure
+  - automation

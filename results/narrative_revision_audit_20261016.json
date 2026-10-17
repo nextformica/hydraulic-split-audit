@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "revision": "narrative_revision_20261016",
+  "checks": [
+    {
+      "name": "cn_title",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_title",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_references",
+      "status": "PASS",
+      "detail": "15"
+    },
+    {
+      "name": "cn_protocol_result",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_weighting_result",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_paired_error",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_core_sections",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_no_ai_statement",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_no_similarity_limit",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_references",
+      "status": "PASS",
+      "detail": "15"
+    },
+    {
+      "name": "en_protocol_result",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_weighting_result",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_paired_error",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_core_sections",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_no_ai_statement",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_no_similarity_limit",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_compile_no_fatal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cn_compile_no_overfull",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_compile_no_fatal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "en_compile_no_overfull",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "sha256": {
+    "latex_final\\paper_cn.pdf": "8EEA9A30D18BA6C498226EF2DF7FE7FC1612372B946F20645FA496B4FDBBC8CC",
+    "latex_final\\paper_en.pdf": "67D5F2B7509C1A26C1F510DEDEA350B060F479FB6A9AB6301B17AB50A0E3CE26",
+    "latex_final\\paper_cn.tex": "191200D2336D070A073656920C56287FDE982A35EB5B27CDD19C5EED7CC46314",
+    "latex_final\\paper_en.tex": "B12FBAD74E0085A9DD307D362BCFBF8F46814FB18ABE8002FCCA247751E756FE"
+  }
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+env/
+results/repro_run_*/
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+.DS_Store
+Thumbs.db

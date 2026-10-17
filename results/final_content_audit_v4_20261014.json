@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "audit_target": "docs/论文正文-v4-审计型完整稿.md",
+  "checks": 296,
+  "failures": [],
+  "primary_results": {
+    "accumulator_balanced_accuracy": 0.8703105156028801,
+    "ordinal_mae_bar": 7.741229005803094,
+    "ordinal_splitter": "StratifiedGroupKFold"
+  }
+}

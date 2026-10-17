@@ -1,0 +1,202 @@
+{
+  "analysis_status": "descriptive weighting audit on frozen OOF predictions; no model fitting",
+  "script": "D:\\论文2\\src\\audit_hydraulic_weighted_metrics_20261016.py",
+  "inputs": {
+    "classifier_oof": "D:\\论文2\\results\\repro_20261016_accumulator_state4_oof.csv",
+    "classifier_oof_sha256": "f768bdaaadb624022c7b8d89433ea4a9dcf9e3c79204d808d5f2fff031bc3558",
+    "paired_oof": "D:\\论文2\\results\\repro_20261016_estimator_comparison_fair_oof.csv",
+    "paired_oof_sha256": "a730839d5f265d6e71499e8be70bbf62ae23e3813d2c2750cfe4558193f70490",
+    "n_cycles": 2205,
+    "n_state4_groups": 144,
+    "n_profile_blocks": 194,
+    "n_folds": 5,
+    "levels_bar": [
+      90,
+      100,
+      115,
+      130
+    ]
+  },
+  "estimands": {
+    "cycle_weighted": "mean loss over cycles; each cycle receives weight 1/n",
+    "state4_group_equal": "compute each state4 combination's mean cycle loss, then average combinations; each combination receives weight 1/number_of_combinations",
+    "profile_block_equal": "compute each contiguous profile-derived block's mean cycle loss, then average blocks; blocks are not official batches",
+    "level_equal": "compute each true pressure level's mean loss, then average four levels; classification balanced accuracy and macro-F1 are level-equal summaries",
+    "majority_vote": "one majority label per unit followed by accuracy/balanced accuracy; reported separately from equal-weight cycle loss",
+    "uncertainty": "unit-level sample SD, standard error and descriptive normal-approximation 95% interval; not a device-level confidence interval"
+  },
+  "classification": {
+    "accuracy_cycle_weighted": 0.8839002267573696,
+    "balanced_accuracy_level_equal": 0.8703105156028801,
+    "macro_f1_level_equal": 0.8661103048952815,
+    "state4_group_equal_accuracy": {
+      "n_units": 144,
+      "mean": 0.8761487961455993,
+      "sd": 0.19826543328862706,
+      "se": 0.01652211944071892,
+      "descriptive_95ci_low": 0.8437654420417902,
+      "descriptive_95ci_high": 0.9085321502494084,
+      "minimum": 0.09090909090909091,
+      "maximum": 1.0
+    },
+    "state4_group_majority_vote": {
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9374999999999999,
+      "n_groups": 144
+    },
+    "profile_block_equal_accuracy": {
+      "n_units": 194,
+      "mean": 0.8664101620029454,
+      "sd": 0.2525307711871115,
+      "se": 0.01813065274758159,
+      "descriptive_95ci_low": 0.8308740826176855,
+      "descriptive_95ci_high": 0.9019462413882053,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "profile_block_majority_vote": {
+      "accuracy": 0.9020618556701031,
+      "balanced_accuracy": 0.9014583333333334,
+      "n_groups": 194
+    },
+    "classification_to_bar_cycle_weighted_mae_bar": 1.8276643990929706,
+    "classification_to_bar_state4_group_equal_mae_bar": {
+      "n_units": 144,
+      "mean": 1.8311086173937836,
+      "sd": 2.958882159580389,
+      "se": 0.24657351329836574,
+      "descriptive_95ci_low": 1.3478245313289867,
+      "descriptive_95ci_high": 2.3143927034585805,
+      "minimum": 0.0,
+      "maximum": 13.636363636363637
+    },
+    "classification_to_bar_profile_block_equal_mae_bar": {
+      "n_units": 194,
+      "mean": 1.958578792341679,
+      "sd": 3.6974413488561813,
+      "se": 0.265460818242187,
+      "descriptive_95ci_low": 1.4382755885869927,
+      "descriptive_95ci_high": 2.4788819960963657,
+      "minimum": 0.0,
+      "maximum": 15.0
+    },
+    "classification_to_bar_level_equal_mae_bar": {
+      "n_units": 4,
+      "mean": 1.9912721622793659,
+      "sd": 0.6599247799449824,
+      "se": 0.3299623899724912,
+      "descriptive_95ci_low": 1.344545877933283,
+      "descriptive_95ci_high": 2.6379984466254487,
+      "minimum": 1.0829207920792079,
+      "maximum": 2.656641604010025
+    }
+  },
+  "numeric_regression": {
+    "mae_bar_cycle_weighted": 7.741229005803094,
+    "rmse_bar_cycle_weighted": 11.846235978879749,
+    "r2_cycle_weighted": 0.48027512095909053,
+    "nearest_level_accuracy_cycle_weighted": 0.6888888888888889,
+    "state4_group_equal_mae_bar": {
+      "n_units": 144,
+      "mean": 5.346235741744199,
+      "sd": 4.271785513682924,
+      "se": 0.35598212614024366,
+      "descriptive_95ci_low": 4.648510774509321,
+      "descriptive_95ci_high": 6.043960708979077,
+      "minimum": 1.004717405743864,
+      "maximum": 28.705858980290515
+    },
+    "state4_group_equal_rmse_bar": {
+      "n_units": 144,
+      "mean": 6.110062875040713,
+      "sd": 4.810082241602018,
+      "se": 0.40084018680016814,
+      "descriptive_95ci_low": 5.324416108912383,
+      "descriptive_95ci_high": 6.895709641169042,
+      "minimum": 1.1719142970437937,
+      "maximum": 34.62062500226763
+    },
+    "state4_group_equal_nearest_level_accuracy": {
+      "n_units": 144,
+      "mean": 0.7760048100521247,
+      "sd": 0.2937565966686642,
+      "se": 0.024479716389055352,
+      "descriptive_95ci_low": 0.7280245659295762,
+      "descriptive_95ci_high": 0.8239850541746733,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "level_equal_mae_bar": {
+      "n_units": 4,
+      "mean": 6.85004275389928,
+      "sd": 3.4268112612308834,
+      "se": 1.7134056306154417,
+      "descriptive_95ci_low": 3.491767717893014,
+      "descriptive_95ci_high": 10.208317789905546,
+      "minimum": 4.150014972774794,
+      "maximum": 11.729602980464815
+    },
+    "level_equal_rmse_bar": {
+      "n_units": 4,
+      "mean": 9.561659138643183,
+      "sd": 5.063416599189378,
+      "se": 2.531708299594689,
+      "descriptive_95ci_low": 4.599510871437592,
+      "descriptive_95ci_high": 14.523807405848775,
+      "minimum": 5.978046876005944,
+      "maximum": 16.85871812487188
+    },
+    "level_equal_nearest_level_accuracy": {
+      "n_units": 4,
+      "mean": 0.7235280530952664,
+      "sd": 0.1378604163175141,
+      "se": 0.06893020815875706,
+      "descriptive_95ci_low": 0.5884248451041025,
+      "descriptive_95ci_high": 0.8586312610864302,
+      "minimum": 0.5346534653465347,
+      "maximum": 0.8621553884711779
+    },
+    "profile_block_equal_mae_bar": {
+      "n_units": 194,
+      "mean": 5.390055403022027,
+      "sd": 4.436667339586293,
+      "se": 0.31853415135288343,
+      "descriptive_95ci_low": 4.765728466370375,
+      "descriptive_95ci_high": 6.014382339673678,
+      "minimum": 0.09850435340652552,
+      "maximum": 31.09571124585451
+    },
+    "profile_block_equal_rmse_bar": {
+      "n_units": 194,
+      "mean": 5.971395295779217,
+      "sd": 4.80587956016259,
+      "se": 0.34504204395529586,
+      "descriptive_95ci_low": 5.295112889626838,
+      "descriptive_95ci_high": 6.647677701931597,
+      "minimum": 0.09850435340652552,
+      "maximum": 34.62062500226763
+    },
+    "profile_block_equal_nearest_level_accuracy": {
+      "n_units": 194,
+      "mean": 0.7616237113402061,
+      "sd": 0.3382621965750096,
+      "se": 0.024285810378298526,
+      "descriptive_95ci_low": 0.7140235229987411,
+      "descriptive_95ci_high": 0.8092238996816712,
+      "minimum": 0.0,
+      "maximum": 1.0
+    }
+  },
+  "integrity_checks": {
+    "classifier_paired_oof_keys_match": true,
+    "classifier_paired_truth_and_class_prediction_match": true,
+    "classifier_rows": 2205,
+    "paired_rows": 2205,
+    "all_rows_finite": true
+  },
+  "outputs": {
+    "fold_distribution_csv": "D:\\论文2\\results\\weighted_metrics_audit_20261016_fold_distribution.csv",
+    "state4_group_metrics_csv": "D:\\论文2\\results\\weighted_metrics_audit_20261016_state4_group_metrics.csv",
+    "profile_block_metrics_csv": "D:\\论文2\\results\\weighted_metrics_audit_20261016_profile_block_metrics.csv"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "cycles": 2205,
+  "blocks": 194,
+  "block_length_counts": {
+    "1": 36,
+    "10": 154,
+    "19": 1,
+    "200": 2,
+    "210": 1
+  },
+  "unique_label_vectors": 180,
+  "labels": {
+    "cooler": {
+      "3": 732,
+      "20": 732,
+      "100": 741
+    },
+    "valve": {
+      "73": 360,
+      "80": 360,
+      "90": 360,
+      "100": 1125
+    },
+    "pump_leak": {
+      "0": 1221,
+      "1": 492,
+      "2": 492
+    },
+    "accumulator": {
+      "90": 808,
+      "100": 399,
+      "115": 399,
+      "130": 599
+    },
+    "stable": {
+      "0": 1449,
+      "1": 756
+    }
+  },
+  "tasks": {
+    "accumulator": {
+      "classes": [
+        90,
+        100,
+        115,
+        130
+      ],
+      "blocks_with_single_class": {
+        "90": 50,
+        "100": 48,
+        "115": 48,
+        "130": 48
+      },
+      "mixed_label_blocks": 0,
+      "usable_group_count": 194
+    },
+    "pump_leak": {
+      "classes": [
+        0,
+        1,
+        2
+      ],
+      "blocks_with_single_class": {
+        "0": 74,
+        "1": 60,
+        "2": 60
+      },
+      "mixed_label_blocks": 0,
+      "usable_group_count": 194
+    },
+    "cooler": {
+      "classes": [
+        3,
+        20,
+        100
+      ],
+      "blocks_with_single_class": {
+        "3": 64,
+        "20": 65,
+        "100": 65
+      },
+      "mixed_label_blocks": 0,
+      "usable_group_count": 194
+    },
+    "valve": {
+      "classes": [
+        73,
+        80,
+        90,
+        100
+      ],
+      "blocks_with_single_class": {
+        "73": 36,
+        "80": 36,
+        "90": 36,
+        "100": 86
+      },
+      "mixed_label_blocks": 0,
+      "usable_group_count": 194
+    }
+  }
+}

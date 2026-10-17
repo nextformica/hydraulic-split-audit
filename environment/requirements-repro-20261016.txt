@@ -1,0 +1,11 @@
+# Minimal runtime for the hydraulic audit and paired estimator comparison.
+# Captured on Windows 11 with CPython 3.14.3 on 2026-10-16.
+# The full machine snapshot is stored in docs/environment_capture_20261016.json.
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# Optional plotting/document helpers used by archived figure or manuscript scripts.
+matplotlib==3.10.9
+pandas==3.0.5
