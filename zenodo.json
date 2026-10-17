@@ -1,0 +1,20 @@
+{
+  "upload_type": "software",
+  "title": "Hydraulic Split Audit",
+  "publication_date": "2026-10-17",
+  "creators": [
+    {
+      "name": "Yan, Chen-Yu"
+    }
+  ],
+  "description": "Reproducible code and derived results for a bounded application evaluation of split protocols, accumulator-level identification, and nominal-pressure error on the UCI Condition Monitoring of Hydraulic Systems dataset.",
+  "keywords": [
+    "hydraulic condition monitoring",
+    "split protocol",
+    "reproducibility",
+    "accumulator pressure",
+    "automation"
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}
