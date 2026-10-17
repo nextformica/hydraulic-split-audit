@@ -1,6 +1,6 @@
 {
   "schema": "hydraulic-public-release-manifest/v1",
-  "captured_utc": "2026-10-17T06:19:23.547939+00:00",
+  "captured_utc": "2026-10-17T06:32:30.014727+00:00",
   "project_root": ".",
   "data_source": {
     "repository": "UCI Machine Learning Repository",
@@ -29,6 +29,14 @@
     "docs/release_scope.md": {
       "bytes": 885,
       "sha256": "83eb43aa336b4e798789ebd66d7ead0dc8ef69aff5f6f67b0f7185c7ff4f08b0"
+    },
+    "docs/复现运行清单-20261016.md": {
+      "bytes": 2606,
+      "sha256": "ace65ed427038b420eda6f915e09c55755e488548e7c5744a3a2e0cbe5a53a1a"
+    },
+    "docs/项目对话与决策记录-20261016.md": {
+      "bytes": 4368,
+      "sha256": "e3e816c7cd9b7063f91f30006c8873eec37324ee29fcc5bd31a57c5ef509f0b0"
     },
     "environment/requirements-repro-20261016.txt": {
       "bytes": 395,
