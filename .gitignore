@@ -10,3 +10,4 @@ results/repro_run_*/
 *.toc
 .DS_Store
 Thumbs.db
+src/capture_reproducibility_manifest.py
