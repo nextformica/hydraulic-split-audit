@@ -1,6 +1,6 @@
 {
   "schema": "hydraulic-public-release-manifest/v1",
-  "captured_utc": "2026-10-17T06:07:21.604726+00:00",
+  "captured_utc": "2026-10-17T06:16:08.769798+00:00",
   "project_root": ".",
   "data_source": {
     "repository": "UCI Machine Learning Repository",
@@ -55,16 +55,16 @@
       "sha256": "ecbefbfc75b848f5180e945852b9ce9f48c32c0c1413732fcaba667831d682d5"
     },
     "latex/paper_cn.tex": {
-      "bytes": 41920,
-      "sha256": "72eb39da0502f26af07badc885006d2d48718094f0cf5f5a9ecaa7ae20abe1d8"
+      "bytes": 41631,
+      "sha256": "eeaa378d04f9c79ce6612a6d949fd7d6a9b32f18012065c98676541924615876"
     },
     "latex/paper_en.pdf": {
       "bytes": 473278,
       "sha256": "4a8e8c2f8566c754ff66d6e3a60a7fd29302c7969fbc7306b8d96ae21e27ad0f"
     },
     "latex/paper_en.tex": {
-      "bytes": 46263,
-      "sha256": "83b77e997008d51c27eb14320752ad0e3b8815722c0193dac5d88575633c8a0f"
+      "bytes": 45941,
+      "sha256": "0b4a5142a87dfd03027a86f8719d4855b8a43620be57e7326f5713c0dffff8c3"
     },
     "LICENSE": {
       "bytes": 1068,
@@ -204,5 +204,5 @@
     }
   },
   "integrity_status": "PASS",
-  "notes": "Manifest hashes all non-Git release files except this manifest; the raw UCI archive is an external input."
+  "notes": "Manifest hashes all non-Git release files except this manifest; text hashes use the LF bytes stored in the Git release; the raw UCI archive is an external input."
 }
