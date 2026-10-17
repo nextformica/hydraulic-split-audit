@@ -1,6 +1,6 @@
 {
   "schema": "hydraulic-public-release-manifest/v1",
-  "captured_utc": "2026-10-17",
+  "captured_utc": "2026-10-17T06:07:21.604726+00:00",
   "project_root": ".",
   "data_source": {
     "repository": "UCI Machine Learning Repository",
@@ -10,97 +10,21 @@
     "raw_archive_in_repository": false
   },
   "files": {
-    "figures/hydraulic_protocol_robustness_20261013.png": {
-      "bytes": 240529,
-      "sha256": "f3ca50a70fddba529fa4ea0c88c59e27f1ed197dd5d1fbf7077c53b9260814ea"
-    },
-    "results/fair_estimator_comparison_audit_20261016.json": {
-      "bytes": 32717,
-      "sha256": "f29f54dd747c5bfc91aeaf7e6fd05e1417ac563276eecc950cbaac67ae480348"
-    },
-    "LICENSE": {
-      "bytes": 1068,
-      "sha256": "f8735479ec7c22fe15bb1c072f628c8dfc176f76b5c169c76eb8560f01319723"
-    },
-    "src/build_hydraulic_registry.py": {
-      "bytes": 4301,
-      "sha256": "aa863f663470adfba20e5a9949ff3478cf884a6b3cf44657913db179ed650dd4"
-    },
-    "results/weighted_metrics_audit_20261016_state4_group_metrics.csv": {
-      "bytes": 9175,
-      "sha256": "f2cae89faa423dc20808203f07fdd59b54f004bf603d0c5fc576071aa657c8bf"
-    },
-    "results/hydraulic_uci_blocks.csv": {
-      "bytes": 6037,
-      "sha256": "d341ccd0a33c822d0ae91e1514d968426a00938c94df6cc4cc67fc6620d9f4b2"
-    },
-    "results/repro_20261016_estimator_comparison_fair.json": {
-      "bytes": 13678,
-      "sha256": "e414f265090388d4471daee17fa4b1a3e9e34d45539022a6a1657537ac2f5a16"
-    },
-    "latex/figures/hydraulic_estimator_comparison_20261013.png": {
-      "bytes": 155955,
-      "sha256": "f6e5c168ba3dbd024b6f4c7711f59adcd03e9c84aa0a7ec28d63a7b4916a2d20"
-    },
-    "src/audit_hydraulic_uci.py": {
-      "bytes": 7389,
-      "sha256": "3a611dc46a0dac47d2c0bb1956b55e338a886ea401889178d0dd75ab1e97f78f"
-    },
-    "results/hydraulic_accumulator_primary_state4.json": {
-      "bytes": 9118,
-      "sha256": "8ed311ae76ab31e3d0e13ec5a684d5229e8b1233a6d74468b18a377d3f5246e6"
-    },
-    "latex/paper_cn.pdf": {
-      "bytes": 624698,
-      "sha256": "8eea9a30d18ba6c498226ef2df7fe7fc1612372b946f20645fa496b4fdbbc8cc"
-    },
-    "results/hydraulic_uci_cycles.csv": {
-      "bytes": 50696,
-      "sha256": "2d7221288aca8263cd880c0b947d951ccb66e36e77b97c58a94b963d357eb7dd"
-    },
-    "src/compare_hydraulic_estimators_fair.py": {
-      "bytes": 13796,
-      "sha256": "e5f8e4c59cceca2267efb022dc7a773b8606812713935896a07944bc534c6a54"
-    },
     ".gitignore": {
-      "bytes": 113,
-      "sha256": "93c72ff7b0b1ab8a658b02d7d2ed23944ff12d7adbd8b246f5a2e914add5d419"
+      "bytes": 153,
+      "sha256": "7ed000c403f0f89b2a3c4468c7d9c018a779fcef854826790dff567246c98d2a"
     },
-    "results/hydraulic_uci_cycle_features.csv": {
-      "bytes": 4699003,
-      "sha256": "63394245d5986d1182ad4baea6d88f1e9bd339c517b64ce5922cc27ab6e3cc44"
+    "CITATION.cff": {
+      "bytes": 475,
+      "sha256": "35d4c6aa797b54307aff18ac5e5c8f1072d0ddbc8c68acb4e2bc94ab09ade88c"
     },
     "docs/release_scope.md": {
       "bytes": 885,
       "sha256": "83eb43aa336b4e798789ebd66d7ead0dc8ef69aff5f6f67b0f7185c7ff4f08b0"
     },
-    "results/repro_20261016_estimator_comparison_fair_fixed_oof.csv": {
-      "bytes": 321110,
-      "sha256": "7973feab553aaa9d78d653e30780ab94f13c6acc8180dc006a24ea86e0a6225b"
-    },
-    "README.md": {
-      "bytes": 3023,
-      "sha256": "a68256886f5cacdf87e108638e09ac7f8a067ceb613dac26921f586881a53f17"
-    },
-    "results/repro_20261016_estimator_comparison_fair_oof.csv": {
-      "bytes": 162561,
-      "sha256": "a730839d5f265d6e71499e8be70bbf62ae23e3813d2c2750cfe4558193f70490"
-    },
     "docs/复现运行清单-20261016.md": {
-      "bytes": 2466,
-      "sha256": "691a2aca7abfbb7e11d1140dafc6b7a94694e3b2b250fc7f8899d51e592024a7"
-    },
-    "src/capture_reproducibility_manifest.py": {
-      "bytes": 8142,
-      "sha256": "cdf10b962161e9c5f01b4f4f60545c616b50d2654ff6c76868610d352ea034f6"
-    },
-    "results/hydraulic_accumulator_ordinal_primary.json": {
-      "bytes": 5961,
-      "sha256": "245495989659e81020f496caa0be2f2227c9cbbdb90fcab8b43282e170e88354"
-    },
-    "src/evaluate_hydraulic_ordinal.py": {
-      "bytes": 9131,
-      "sha256": "54e2a4e6a85f2c1d8d35eefde6b782928af03df6d00a6a604313258a4e414bcb"
+      "bytes": 2606,
+      "sha256": "ace65ed427038b420eda6f915e09c55755e488548e7c5744a3a2e0cbe5a53a1a"
     },
     "docs/项目对话与决策记录-20261016.md": {
       "bytes": 3406,
@@ -110,95 +34,175 @@
       "bytes": 395,
       "sha256": "4718ede38ebd6d218feb1a408c425ef8e5936b52da7c0810dcb47f7b9f0f2db9"
     },
-    "CITATION.cff": {
-      "bytes": 472,
-      "sha256": "ac849ae3075d6f846588e7950fec02ef559530008978a8285df32c23994b938a"
-    },
-    "results/weighted_metrics_audit_20261016_fold_distribution.csv": {
-      "bytes": 1852,
-      "sha256": "575b465f470800e3f84ff654ff24de3788dba2722f079d70f38754ab6abb8bee"
-    },
     "figures/hydraulic_estimator_comparison_20261013.png": {
       "bytes": 155955,
       "sha256": "f6e5c168ba3dbd024b6f4c7711f59adcd03e9c84aa0a7ec28d63a7b4916a2d20"
     },
-    "latex/paper_en.tex": {
-      "bytes": 46273,
-      "sha256": "b12fbad74e0085a9dd307d362bcfbf8f46814fb18abe8002fcca247751e756fe"
+    "figures/hydraulic_protocol_robustness_20261013.png": {
+      "bytes": 240529,
+      "sha256": "f3ca50a70fddba529fa4ea0c88c59e27f1ed197dd5d1fbf7077c53b9260814ea"
     },
-    "latex/paper_cn.tex": {
-      "bytes": 41872,
-      "sha256": "191200d2336d070a073656920c56287fde982a35eb5b27cdd19c5eed7cc46314"
-    },
-    "results/hydraulic_uci_signal_audit.csv": {
-      "bytes": 2149,
-      "sha256": "76e8a92e3b8a6551aa5d9396b9678826e760e355b0ac765c57c2bcd37a138c3e"
-    },
-    "scripts/reproduce_hydraulic_audit.ps1": {
-      "bytes": 2877,
-      "sha256": "9afc0f2cb31563924a02f1602e553a0583e5bfd28d8b1895a4f064cf5e85af2e"
-    },
-    "results/fair_estimator_comparison_audit_20261016_oof.csv": {
-      "bytes": 302667,
-      "sha256": "db842b82a126a41c1ce43a0efb3651f40ceb14599b8a9f0307da3b7b72032e2b"
-    },
-    "results/narrative_revision_audit_20261016.json": {
-      "bytes": 2442,
-      "sha256": "14d03bcf6094af8dcfb3f4a9bea4b4d23c8582b07e076822adda98ce93f896e1"
-    },
-    "results/hydraulic_accumulator_primary_state4_confusion_matrix.csv": {
-      "bytes": 95,
-      "sha256": "3e2c0d74bc501b4e3ef1563c2a7af22c7f4306f61cac284b8d4f412d63bcd17b"
-    },
-    "results/hydraulic_uci_full_audit.json": {
-      "bytes": 10302,
-      "sha256": "2f799ccd1882acfee66d55e2e728e64b593382c99db9e5294d3f7c8bef0535fa"
-    },
-    "results/hydraulic_accumulator_ordinal_primary_oof.csv": {
-      "bytes": 125280,
-      "sha256": "38f5fe93c918ed73d00ae7514ae825ebd05fee21bc7e0f9615b8c1e450dd703d"
-    },
-    "results/weighted_metrics_audit_20261016_profile_block_metrics.csv": {
-      "bytes": 7480,
-      "sha256": "692b976fd012083a47a95c28efd08c24d7c062f309e7f096773c1763764d6b06"
-    },
-    "src/extract_hydraulic_features.py": {
-      "bytes": 3668,
-      "sha256": "39dc5e236a3e01140a10a4342b1e1a4122d8517647262e54744ded0f9b1c89d1"
-    },
-    "results/hydraulic_accumulator_primary_state4_oof.csv": {
-      "bytes": 86352,
-      "sha256": "f768bdaaadb624022c7b8d89433ea4a9dcf9e3c79204d808d5f2fff031bc3558"
-    },
-    "results/final_content_audit_v4_20261014.json": {
-      "bytes": 305,
-      "sha256": "3a06c446cb8fb119ea418fbbe84bc1b4ae4d2504cefe2cc34b7d11046e08d63a"
+    "latex/figures/hydraulic_estimator_comparison_20261013.png": {
+      "bytes": 155955,
+      "sha256": "f6e5c168ba3dbd024b6f4c7711f59adcd03e9c84aa0a7ec28d63a7b4916a2d20"
     },
     "latex/figures/hydraulic_protocol_robustness_20261013.png": {
       "bytes": 240529,
       "sha256": "f3ca50a70fddba529fa4ea0c88c59e27f1ed197dd5d1fbf7077c53b9260814ea"
     },
-    "results/hydraulic_uci_registry_summary.json": {
-      "bytes": 1752,
-      "sha256": "fc56fd412f862903c24ac8d7bf2cbe1c6af740e5f841e4ecbbecd9ebea66da4f"
+    "latex/paper_cn.pdf": {
+      "bytes": 625642,
+      "sha256": "ecbefbfc75b848f5180e945852b9ce9f48c32c0c1413732fcaba667831d682d5"
     },
-    "src/evaluate_hydraulic_models.py": {
-      "bytes": 12500,
-      "sha256": "80a177677dd3ba0f940e18b09cb75cb58337e783f1255d8cfe4bd32e8e83aa6f"
+    "latex/paper_cn.tex": {
+      "bytes": 41920,
+      "sha256": "72eb39da0502f26af07badc885006d2d48718094f0cf5f5a9ecaa7ae20abe1d8"
+    },
+    "latex/paper_en.pdf": {
+      "bytes": 473278,
+      "sha256": "4a8e8c2f8566c754ff66d6e3a60a7fd29302c7969fbc7306b8d96ae21e27ad0f"
+    },
+    "latex/paper_en.tex": {
+      "bytes": 46263,
+      "sha256": "83b77e997008d51c27eb14320752ad0e3b8815722c0193dac5d88575633c8a0f"
+    },
+    "LICENSE": {
+      "bytes": 1068,
+      "sha256": "f8735479ec7c22fe15bb1c072f628c8dfc176f76b5c169c76eb8560f01319723"
+    },
+    "README.md": {
+      "bytes": 3023,
+      "sha256": "a68256886f5cacdf87e108638e09ac7f8a067ceb613dac26921f586881a53f17"
+    },
+    "results/fair_estimator_comparison_audit_20261016.json": {
+      "bytes": 32717,
+      "sha256": "f29f54dd747c5bfc91aeaf7e6fd05e1417ac563276eecc950cbaac67ae480348"
+    },
+    "results/fair_estimator_comparison_audit_20261016_oof.csv": {
+      "bytes": 302667,
+      "sha256": "db842b82a126a41c1ce43a0efb3651f40ceb14599b8a9f0307da3b7b72032e2b"
+    },
+    "results/final_content_audit_v4_20261014.json": {
+      "bytes": 305,
+      "sha256": "3a06c446cb8fb119ea418fbbe84bc1b4ae4d2504cefe2cc34b7d11046e08d63a"
     },
     "results/hydraulic_accumulator_ordinal_error_summary.csv": {
       "bytes": 524,
       "sha256": "f39323f9c8f168de0fabbc0b4b798a11926dcead4b171d37b75dc1e3e9738acd"
     },
-    "latex/paper_en.pdf": {
-      "bytes": 472531,
-      "sha256": "67d5f2b7509c1a26c1f510dedea350b060f479fb6a9ab6301b17ab50a0e3ce26"
+    "results/hydraulic_accumulator_ordinal_primary.json": {
+      "bytes": 5961,
+      "sha256": "245495989659e81020f496caa0be2f2227c9cbbdb90fcab8b43282e170e88354"
+    },
+    "results/hydraulic_accumulator_ordinal_primary_oof.csv": {
+      "bytes": 125280,
+      "sha256": "38f5fe93c918ed73d00ae7514ae825ebd05fee21bc7e0f9615b8c1e450dd703d"
+    },
+    "results/hydraulic_accumulator_primary_state4.json": {
+      "bytes": 9118,
+      "sha256": "8ed311ae76ab31e3d0e13ec5a684d5229e8b1233a6d74468b18a377d3f5246e6"
+    },
+    "results/hydraulic_accumulator_primary_state4_confusion_matrix.csv": {
+      "bytes": 95,
+      "sha256": "3e2c0d74bc501b4e3ef1563c2a7af22c7f4306f61cac284b8d4f412d63bcd17b"
+    },
+    "results/hydraulic_accumulator_primary_state4_oof.csv": {
+      "bytes": 86352,
+      "sha256": "f768bdaaadb624022c7b8d89433ea4a9dcf9e3c79204d808d5f2fff031bc3558"
+    },
+    "results/hydraulic_uci_blocks.csv": {
+      "bytes": 6037,
+      "sha256": "d341ccd0a33c822d0ae91e1514d968426a00938c94df6cc4cc67fc6620d9f4b2"
+    },
+    "results/hydraulic_uci_cycle_features.csv": {
+      "bytes": 4699003,
+      "sha256": "63394245d5986d1182ad4baea6d88f1e9bd339c517b64ce5922cc27ab6e3cc44"
+    },
+    "results/hydraulic_uci_cycles.csv": {
+      "bytes": 50696,
+      "sha256": "2d7221288aca8263cd880c0b947d951ccb66e36e77b97c58a94b963d357eb7dd"
+    },
+    "results/hydraulic_uci_full_audit.json": {
+      "bytes": 10302,
+      "sha256": "2f799ccd1882acfee66d55e2e728e64b593382c99db9e5294d3f7c8bef0535fa"
+    },
+    "results/hydraulic_uci_registry_summary.json": {
+      "bytes": 1752,
+      "sha256": "fc56fd412f862903c24ac8d7bf2cbe1c6af740e5f841e4ecbbecd9ebea66da4f"
+    },
+    "results/hydraulic_uci_signal_audit.csv": {
+      "bytes": 2149,
+      "sha256": "76e8a92e3b8a6551aa5d9396b9678826e760e355b0ac765c57c2bcd37a138c3e"
+    },
+    "results/narrative_revision_audit_20261016.json": {
+      "bytes": 2442,
+      "sha256": "14d03bcf6094af8dcfb3f4a9bea4b4d23c8582b07e076822adda98ce93f896e1"
+    },
+    "results/repro_20261016_estimator_comparison_fair.json": {
+      "bytes": 13678,
+      "sha256": "e414f265090388d4471daee17fa4b1a3e9e34d45539022a6a1657537ac2f5a16"
+    },
+    "results/repro_20261016_estimator_comparison_fair_fixed_oof.csv": {
+      "bytes": 321110,
+      "sha256": "7973feab553aaa9d78d653e30780ab94f13c6acc8180dc006a24ea86e0a6225b"
+    },
+    "results/repro_20261016_estimator_comparison_fair_oof.csv": {
+      "bytes": 162561,
+      "sha256": "a730839d5f265d6e71499e8be70bbf62ae23e3813d2c2750cfe4558193f70490"
     },
     "results/weighted_metrics_audit_20261016.json": {
       "bytes": 7797,
       "sha256": "5eabd418bcf0f04583e702333bcf292ad31bcfc15053178888fac3e5e0993ac8"
+    },
+    "results/weighted_metrics_audit_20261016_fold_distribution.csv": {
+      "bytes": 1852,
+      "sha256": "575b465f470800e3f84ff654ff24de3788dba2722f079d70f38754ab6abb8bee"
+    },
+    "results/weighted_metrics_audit_20261016_profile_block_metrics.csv": {
+      "bytes": 7480,
+      "sha256": "692b976fd012083a47a95c28efd08c24d7c062f309e7f096773c1763764d6b06"
+    },
+    "results/weighted_metrics_audit_20261016_state4_group_metrics.csv": {
+      "bytes": 9175,
+      "sha256": "f2cae89faa423dc20808203f07fdd59b54f004bf603d0c5fc576071aa657c8bf"
+    },
+    "scripts/reproduce_hydraulic_audit.ps1": {
+      "bytes": 2877,
+      "sha256": "9afc0f2cb31563924a02f1602e553a0583e5bfd28d8b1895a4f064cf5e85af2e"
+    },
+    "src/audit_hydraulic_uci.py": {
+      "bytes": 7389,
+      "sha256": "3a611dc46a0dac47d2c0bb1956b55e338a886ea401889178d0dd75ab1e97f78f"
+    },
+    "src/build_hydraulic_registry.py": {
+      "bytes": 4301,
+      "sha256": "aa863f663470adfba20e5a9949ff3478cf884a6b3cf44657913db179ed650dd4"
+    },
+    "src/capture_reproducibility_manifest.py": {
+      "bytes": 8142,
+      "sha256": "cdf10b962161e9c5f01b4f4f60545c616b50d2654ff6c76868610d352ea034f6"
+    },
+    "src/compare_hydraulic_estimators_fair.py": {
+      "bytes": 13796,
+      "sha256": "e5f8e4c59cceca2267efb022dc7a773b8606812713935896a07944bc534c6a54"
+    },
+    "src/evaluate_hydraulic_models.py": {
+      "bytes": 12500,
+      "sha256": "80a177677dd3ba0f940e18b09cb75cb58337e783f1255d8cfe4bd32e8e83aa6f"
+    },
+    "src/evaluate_hydraulic_ordinal.py": {
+      "bytes": 9131,
+      "sha256": "54e2a4e6a85f2c1d8d35eefde6b782928af03df6d00a6a604313258a4e414bcb"
+    },
+    "src/extract_hydraulic_features.py": {
+      "bytes": 3668,
+      "sha256": "39dc5e236a3e01140a10a4342b1e1a4122d8517647262e54744ded0f9b1c89d1"
+    },
+    "zenodo.json": {
+      "bytes": 599,
+      "sha256": "c591140a0d0508988433e4fb979481f297d3556e539c0c8dccebbc49da038deb"
     }
   },
   "integrity_status": "PASS",
-  "notes": "Manifest hashes the release package; the raw UCI archive is an external input."
+  "notes": "Manifest hashes all non-Git release files except this manifest; the raw UCI archive is an external input."
 }
